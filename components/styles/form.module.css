@@ -1,0 +1,17 @@
+.formInputIcon {
+    @apply w-16 h-full px-6 py-2 bg-gray-200
+}
+
+.formInput {
+    @apply bg-gray-50 h-full w-full px-6 font-normal text-base 
+}
+
+
+
+.formInputcontainer {
+    @apply  border flex h-14 justify-center items-center 
+}
+
+.formContainer{
+    @apply text-black grid  grid-cols-2 gap-4 min-h-max
+}

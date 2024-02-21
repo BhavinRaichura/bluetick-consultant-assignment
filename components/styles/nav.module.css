@@ -1,0 +1,7 @@
+.navRouteUnderline {
+    @apply block h-1 w-0 group-hover:w-full my-0.5 bg-blue-700 
+}
+
+.navRouteText{
+    @apply text-base font-medium w-full block py-3  transition-all
+}
