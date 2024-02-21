@@ -17,7 +17,7 @@ const Card = ({ title, desc, url }) => {
       /*' group w-full h-full bg-white hover:bg-gray-50 text-black  p-5 rounded-md shadow-lg hover:-translate-y-2 transition-all overflow-hidden'*/ data-aos="zoom-in"
       data-aos-duration="1000"
     >
-      <h2 className=" text-2xl font-semibold mb-2 ">{title}</h2>
+      <h2 className=" text-2xl max-sm:text-xl font-semibold mb-2 ">{title}</h2>
       <p className="mb-2 text-desc ">{desc}</p>
       <p className=" text-primary pt-4 " style={{ width: "calc(100% - 1rem)" }}>
         <a href={url} className="" target="_blank">
