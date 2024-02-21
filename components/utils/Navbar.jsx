@@ -13,7 +13,7 @@ const imageUrl =
 const Navbar = () => {
   const [open, setOpen] = useState(0);
   return (
-    <nav className="w-full text-black fixed left-0 top-0 backdrop-blur-lg px-20  max-lg:px-10 max-md:5px priority-1 ">
+    <nav className="w-full text-black fixed left-0 top-0 backdrop-blur-lg px-20  max-lg:px-8 max-md:px-5 priority-1 ">
       <div className=" flex justify-between items-center">
         <div className="">
           <img src={imageUrl} className=" w-40 h-16 p-3 " />
